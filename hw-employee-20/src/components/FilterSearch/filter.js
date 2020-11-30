@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import FilterSearch from '../../components/FilterSearch';
+import Form from 'react-bootstrap/Form'
 
 
 
@@ -32,16 +32,25 @@ function Filter() {
   
     }, [searchBar])
     return (
-    <>
-        <FilterSearch
-        input={searchBar}
-        // hooks in to the FilterSearch component      
-        handleInputChange={handleInputChange} 
-        />    
-    
-        {warning === false ? null : <h1>You Frucked Up.</h1>}
+    <>  
+               
+
+        <Form className='margin' 
+            onSubmit={e => {
+            e.preventDefault();
+        }}>    
+            <Form.Label>Search Employee</Form.Label>
+            {/* this takes a value and handlesInputChange in the App.js onChange */}
+            <Form.Control className='search-input' type='search' placeholder='Input Name' value={searchBar} onChange={handleInputChange}                              
+            />
+              
+        </Form>
+          {warning === false ? null : <h1>You Frucked Up.</h1>} 
     </>
+
+
+
     )
 }
 
-export default Filter();
+export default Filter;

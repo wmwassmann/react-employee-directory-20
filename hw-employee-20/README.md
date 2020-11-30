@@ -15,6 +15,8 @@ Through this app, I will prove to myself that I'm a good coder who understands t
 - Push 2, Framing Card components.
 - Push 3, To build the foundation, and get all of the React modules talk to each other.
 - Push 4, Pushing up some simple functionality in the searchBar
+- Push 5, I wanted to take things another step, and I reworked my entire thought process.  Instead of using a single App.js to hold all of the functionality, 
+    I figured why not go deeper into setting this up to have more routing capability, just in case? 
 
 
 
