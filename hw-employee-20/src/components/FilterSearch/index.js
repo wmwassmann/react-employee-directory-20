@@ -8,11 +8,16 @@ import Form from 'react-bootstrap/Form'
 // Everything that I want to do funnels through this searchbar, validation, auto-fill, search, and maybe even add/subract - though that probably won't make
 // a lot of sense, so I might make that it's own page. 
 
-function FilterSearch() {
+function FilterSearch({ inputValue, handleInputChange }) {
     return (
-        <Form>    
+        <Form className='margin' 
+            onSubmit={e => {
+            e.preventDefault();
+        }}>    
             <Form.Label>Search Employee</Form.Label>
-            <Form.Control  />
+            {/* this takes a value and handlesInputChange in the App.js onChange */}
+            <Form.Control className='search-input' type='search' placeholder='Input Name' value={inputValue} onChange={handleInputChange}                
+            />
         </Form>
     )
 }
