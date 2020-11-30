@@ -8,6 +8,8 @@ import './style.css';
 
 // Using this to hold all of the employee information on a card.
 function EmployeeCard({ name, title, phone, email, location}) {
+
+
     return (
         <div className='employee-card'>
             <div className='text-color'>
