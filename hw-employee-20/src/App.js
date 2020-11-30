@@ -1,8 +1,8 @@
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import React, { useState, useEffect } from 'react';
+import React, { Component } from 'react';
 import './css/App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/Navbar';
 import EmployeeManager from './pages/employeeManager';
 import Main from './pages/mainPage';
 
@@ -10,8 +10,9 @@ import Main from './pages/mainPage';
 
 
 
-function App() {
+class App extends Component {
 
+render() {
   return (
    <>
   <Router>
@@ -28,6 +29,7 @@ function App() {
   </Router>
    </>
   );
+  }
 }
 
 export default App;

@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 // import { BrowserRouter as Route } from 'react-router-dom';
 import '../css/App.css';
-import Header from '../components/Header';
-import Main from '../components/Main';
-import CardWrapper from '../components/Card/CardWrapper';
-import EmployeeCard from '../components/Card/EmployeeCard';
+import Header from '../components/Header/Header';
+import Main from '../components/Main/Main';
+import CardWrapper from '../components/Card/CardWrapper/CardWrapper';
+import Employee from '../components/Card/EmployeeCard/App';
 // import NavBar from '../components/NavBar';
 import Filter from '../components/FilterSearch/Filter';
 // import EmployeeManager from './employeeManager';
@@ -22,14 +22,11 @@ class MainPage extends Component {
 
         return (
             <>
-
-
                 <Main>
                     <Header />                  
-                    <Filter />
-                                     
+                    <Filter />                                     
                     <CardWrapper>
-                        <EmployeeCard />
+                        <Employee />
                     </ CardWrapper>
                 </Main>
             </>

@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "id": 1,
+        "img": "",
+        "name": "Ross Bob",
+        "title": "Manager",        
+        "phone": "(987) 123-4567",
+        "email": "RossBob@digidigits.com",
+        "location": "Seattle"
+    },
+    {
+        "id": 2,
+        "img": "",
+        "name": "Rex Kwon Do",
+        "title": "Designer",
+        "phone": "(555) 555–5555",
+        "email": "Kicks4days@digidigits.com",
+        "location": "Luxumburg"
+    },
+    {
+        "id": 3,
+        "img": "",
+        "name": "Regina George",
+        "title": "Manager",       
+        "phone": "(222) 555–4444",
+        "email": "notactuallyfetch@digidigits.com",        
+        "location": "Sunnydale"
+    }
+]
