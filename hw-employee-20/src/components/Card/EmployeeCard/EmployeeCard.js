@@ -13,14 +13,13 @@ function EmployeeCard({ name, title, phone, email, location}) {
 
 
     return (
-        <div className='employee-card'>
-            <div className='text-color'>
+        <div className='employee-card card-container'>
+            <div className='text-color card-text'>
                 <img src='' alt='helloworld'></img>
 
                 <h2>{name}</h2>
-                <h2>{title}</h2>
-            </div>
-            <p>Employee Card</p>
+                <h3>{title}</h3>
+            </div>           
             <hr />
             <div className='employee-contact'>
                 <ul>

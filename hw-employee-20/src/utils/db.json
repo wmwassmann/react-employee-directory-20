@@ -21,9 +21,90 @@
         "id": 3,
         "img": "",
         "name": "Regina George",
-        "title": "Manager",       
+        "title": "Developer",       
         "phone": "(222) 555–4444",
         "email": "notactuallyfetch@digidigits.com",        
         "location": "Sunnydale"
+    },
+    {
+        "id": 4,
+        "img": "",
+        "name": "Mac Culk",
+        "title": "Developer",        
+        "phone": "(987) 223-4247",
+        "email": "aloneone@digidigits.com",
+        "location": "Los Angeles"
+    },
+    {
+        "id": 5,
+        "img": "",
+        "name": "Chris Roberts",
+        "title": "CEO",
+        "phone": "(999) 595–5234",
+        "email": "freelancer@digidigits.com",
+        "location": "London"
+    },
+    {
+        "id": 6,
+        "img": "",
+        "name": "Nicol Bolas",
+        "title": "Dragon",       
+        "phone": "(777) 777–7777",
+        "email": "truegod777@digidigits.com",        
+        "location": "Giza"
+    },
+    {
+        "id": 7,
+        "img": "",
+        "name": "Firstname Lastname",
+        "title": "Developer",        
+        "phone": "(987) 100-4567",
+        "email": "person@digidigits.com",
+        "location": "Milwaukee"
+    },
+    {
+        "id": 8,
+        "img": "",
+        "name": "Frett Bavre",
+        "title": "Designer",
+        "phone": "(521) 534–6855",
+        "email": "vikingsuck@digidigits.com",
+        "location": "Green Bay"
+    },
+    {
+        "id": 9,
+        "img": "",
+        "name": "Godzilla",
+        "title": "Debugging Specialist",       
+        "phone": "(222) 555–3322",
+        "email": "heartmothra@digidigits.com",        
+        "location": "Earth"
+    },
+    {
+        "id": 10,
+        "img": "",
+        "name": "Beef Jerky",
+        "title": "Designer",       
+        "phone": "(222) 345–3322",
+        "email": "goodcomfortfood@digidigits.com",        
+        "location": "Nashville"
+    },
+    {
+        "id": 11,
+        "img": "",
+        "name": "Max Von Sydow",
+        "title": "Manager",       
+        "phone": "(101) 123–3322",
+        "email": "darngoodactor@digidigits.com",        
+        "location": "Bristol"
+    },
+    {
+        "id": 12,
+        "img": "",
+        "name": "Bertram Gilfoyle",
+        "title": "Savior of the Internet",       
+        "phone": "(666) 666–6666",
+        "email": "superiorToDinesh@digidigits.com",        
+        "location": "N/A"
     }
 ]

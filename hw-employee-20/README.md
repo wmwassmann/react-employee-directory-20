@@ -17,6 +17,8 @@ Through this app, I will prove to myself that I'm a good coder who understands t
 - Push 4, Pushing up some simple functionality in the searchBar
 - Push 5, I wanted to take things another step, and I reworked my entire thought process.  Instead of using a single App.js to hold all of the functionality, 
     I figured why not go deeper into setting this up to have more routing capability, just in case? 
+- Push 6, Bootstrap is now functional, I have the ability to make components talk to each other.
+- Push 7, I can't believe this is working the way I want it to. It's a massive confidence booster especially after just...yeah. Pulling from my db.json, now just to make it look nice and have a proper filtration system and I think I'm probably good to submit! Still to come, the ability to add and subtract employees.
 
 
 
