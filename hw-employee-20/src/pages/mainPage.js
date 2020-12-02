@@ -22,10 +22,7 @@ class MainPage extends Component {
               <Header />  
                 <Main>    
                     <Employee />   
-                    <CardWrapper/>  
-                    {/* <CardWrapper>
-                    <Employee />  
-                    </CardWrapper>                        */}
+                    <CardWrapper/>             
                 </Main>
             </>
         );

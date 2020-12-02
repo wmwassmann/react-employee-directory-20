@@ -19,6 +19,7 @@ Through this app, I will prove to myself that I'm a good coder who understands t
     I figured why not go deeper into setting this up to have more routing capability, just in case? 
 - Push 6, Bootstrap is now functional, I have the ability to make components talk to each other.
 - Push 7, I can't believe this is working the way I want it to. It's a massive confidence booster especially after just...yeah. Pulling from my db.json, now just to make it look nice and have a proper filtration system and I think I'm probably good to submit! Still to come, the ability to add and subtract employees.
+- Push 8, Solved a massive yet stupid issue with my routing.  Made the Searchbar change sizes when I would input a value.  That was fun. 
 
 
 
