@@ -21,7 +21,7 @@ render() {
     {/* <NavBar /> */}
       <div>
         
-      <Route exact path ='/main' component={Main} />
+      <Route exact path ='/' component={Main} />
       <Route exact path ='/employee-manager' component={EmployeeManager} />  
       </div>
       </div>
