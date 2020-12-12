@@ -10,15 +10,15 @@ function Filter({ inputValue, handleInputChange }) {
     return (
       <>
     
-       <Form className='margin has-search form-control search-bar' 
-            onSubmit={e => {
-            e.preventDefault();
-        }}>              
+      
+                      
             {/* this takes a value and handlesInputChange in the App.js onChange */}
-            <Form.Control className='search-input' type='search' placeholder='Input Name' value={inputValue} onChange={handleInputChange} />              
+            <Form.Control className='search-input' type='search' placeholder='Input Name' value={inputValue} onChange={handleInputChange} onSubmit={e => {
+            e.preventDefault();
+        }}/>              
            
             
-        </Form>
+        
      
     </>
    

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import Dropdown from '../../DropDown/Dropdown.js'
 import employees from '../../../utils/db.json';
 import EmployeeCard from './EmployeeCard';
 import CardWrapper from '../CardWrapper/CardWrapper';
-import FilterSearch from '../../FilterSearch/Filter';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
@@ -39,26 +39,97 @@ function Employee() {
         const results = team.filter(person =>
             person.name.includes(searchBar.toLowerCase())
         );
-        setTeam(results);        
+        setTeam(results);
     }, [searchBar])
 
+    const handleSelectDropdown = (eventKey) => {
 
+        switch (eventKey) {
+            case "CEO":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("CEO")
+                ));
+                break;
+            case "Manager":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("Manager")
+                ));
+                break;
+            case "Designer":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("Designer")
+                ));
+                break;
+            case "Developer":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("Developer")
+                ));
+                break;
+            case "Debugging Specialist":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("Debugging Specialist")
+                ));
+                break;
+            case "Savior of the Internet":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("Savior of the Internet")
+                ));
+                break;
+            case "Dragon":
+                setTeam([...employees].filter(person =>
+                    person.title.includes("Dragon")
+                ));
+                break;
+            case "Los Angeles":
+                setTeam([...employees].filter(person =>
+                    person.location.includes("Los Angeles")
+                ));
+                break;
+            case "Tampa Bay":
+                setTeam([...employees].filter(person =>
+                    person.location.includes("Tampa Bay")
+                ));
+                break;
+            case "Milwaukee":
+                setTeam([...employees].filter(person =>
+                    person.location.includes("Milwaukee")
+                ));
+                break;
+            case "Green Bay":
+                setTeam([...employees].filter(person =>
+                    person.location.includes("Green Bay")
+                ));
+                break;
+            default:
+                resetTeam();
+                return;
 
+        }
+    }
+
+    const resetTeam = () => {
+        setTeam(employees);
+        setSearch("");
+    }
     return (
         <div>
             <Row>
                 <Col md={6}>
                     <div className='search-bar'>
-                        <FilterSearch
-                            inputValue={searchBar}
-                            handleInputChange={handleInputChange}                            
+
+                        <Dropdown
+                            handleInputChange={handleInputChange}
                             sortBtn={sortNames}
-                            children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"} />
+                            resetBtn={resetTeam}
+                            handleSelectDropdown={handleSelectDropdown}
+                            children={nameSort === "AZ" ? " Sort Descending " : " Sort Ascending "}
+                        />
+
                     </div>
                 </Col>
             </Row>
 
-        <div>      
+            <div>
                 <CardWrapper >
                     {team.map(person => (
                         <EmployeeCard

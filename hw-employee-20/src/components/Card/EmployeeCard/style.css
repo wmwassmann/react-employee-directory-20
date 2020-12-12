@@ -1,5 +1,7 @@
 .search-bar {
   position: relative;
+  width: 503px;
+  left: 36px;
 }
 
 .employee-card {
