@@ -119,8 +119,8 @@ function Employee() {
 
                         <Dropdown
                             handleInputChange={handleInputChange}
-                            sortBtn={sortNames}
-                            resetBtn={resetTeam}
+                            sortButton={sortNames}
+                            resetButton={resetTeam}
                             handleSelectDropdown={handleSelectDropdown}
                             children={nameSort === "AZ" ? " Sort Descending " : " Sort Ascending "}
                         />
