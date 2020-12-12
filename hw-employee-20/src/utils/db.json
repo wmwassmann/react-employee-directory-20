@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/bob-ross.jpg",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/dwarf-bard-1.png",
         "name": "Ross Bob",
         "title": "Manager",        
         "phone": "(987) 123-4567",
         "email": "RossBob@digidigits.com",
-        "location": "Tampa Bay"
+        "location": "Tampa Bay"        
     },
     {
         "id": 2,
