@@ -1,4 +1,20 @@
-## Personal Goal
+
+![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)
+# Employee Directory
+---
+
+# Table of contents
+- [Goal](#personal-goal)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Contributing](#Contributing)
+- [Questions](#questions)
+
+
+
+# Personal Goal
 
 To dig deep and create a React App, a technology I genuinely really like and made me fall in love with coding, and be proud of it as a homework submission. 
 
@@ -8,74 +24,44 @@ Through this app, I will prove to myself that I'm a good coder who understands t
 - Prove myself to myself
 - Use a technology that I get excited about properly. 
 
+# Installation
 
-## Progress log
-
-- Push 1, readme, setting up react folders, overa-all strategy
-- Push 2, Framing Card components.
-- Push 3, To build the foundation, and get all of the React modules talk to each other.
-- Push 4, Pushing up some simple functionality in the searchBar
-- Push 5, I wanted to take things another step, and I reworked my entire thought process.  Instead of using a single App.js to hold all of the functionality, 
-    I figured why not go deeper into setting this up to have more routing capability, just in case? 
-- Push 6, Bootstrap is now functional, I have the ability to make components talk to each other.
-- Push 7, I can't believe this is working the way I want it to. It's a massive confidence booster especially after just...yeah. Pulling from my db.json, now just to make it look nice and have a proper filtration system and I think I'm probably good to submit! Still to come, the ability to add and subtract employees.
-- Push 8, Solved a massive yet stupid issue with my routing.  Made the Searchbar change sizes when I would input a value.  That was fun. 
+To install: 
+- Clone the repository
+- Run the command "npm install" from the hw-employee-20 folder 
+- Run the command "npm start" from the hw-employee-20 folder 
+- This employee directory will be hosted locally in localhost:3000, or you can view it via (heroku)
 
 
+# Usage
+- To view employee cards with their name, and contact information as well as their job description, and filter based on name, location, and title parameters. 
+
+# License
+This project is licensed under Eclipse Public License 1.0. Read more at https://opensource.org/licenses/EPL-1.0
+
+# Tests
+N/A
+
+# Contributing
+If you would like to contribute to this project, you can either clone the project, fork the project, 
+or email me a wmwassmann@hotmail.com for permissions. 
+
+# Future 
+
+- initially I was going to keep this as an employee roster/directory, and then after submitting keep adding to it.  But currently I am working on a Dungeons and Dragons application, and may start shifting this technology into a "saved character" selector of sorts.  It seems very useful for our project. 
+- Future features will include
+  - The ability to create and remove characters
+  - Storing into a MySQL database rather than a db.json (which is nice for) prebuilt entries. 
+  - Fixing the images.
+
+# Questions
+Ask questions through github.
+
+## Creator information  
+Creator Github profile: https://github.com/wmwassmann?tab=repositories
+Creator Email: wmwassmann@hotmail.com
 
 
-# Unit 19 React Homework: Employee Directory
-
-## Overview
-
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events. (X)
-
-## User Story
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information. (X)
-
-## Business Context
-
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name. (X)
-
-## Acceptance Criteria
-
-Given a table of random users, when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
 
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
 
