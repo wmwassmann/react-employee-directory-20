@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
-// import employees from '../../../utils/db.json';
+
+
+
 
 
 // constructing the card to contain employees.  
@@ -8,15 +10,14 @@ import './style.css';
 // I applied this logic to my carousel selection process in the DnD Buddy application.  
 
 // Using this to hold all of the employee information on a card.
-function EmployeeCard({ name, title, phone, email, location}) {
+function EmployeeCard({ name, title, phone, email, img, location}) {
 
 
 
     return (
         <div className='employee-card card-container'>
             <div className='text-color card-text'>
-                <img src='' alt='helloworld'></img>
-
+                <img src={img} alt={name} />
                 <h2>{name}</h2>
                 <h3>{title}</h3>
             </div>           
