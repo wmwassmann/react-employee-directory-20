@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import LazyLoad from 'react-lazyload';
 
 
 
@@ -17,7 +17,9 @@ function EmployeeCard({ name, title, phone, email, img, location}) {
     return (
         <div className='employee-card card-container'>
             <div className='text-color card-text'>
+            <LazyLoad height="41">
                 <img src={img} alt={name} />
+            </LazyLoad >
                 <h2>{name}</h2>
                 <h3>{title}</h3>
             </div>           
