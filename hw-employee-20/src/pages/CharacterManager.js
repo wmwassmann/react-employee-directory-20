@@ -4,7 +4,7 @@ class CharacterManager extends Component {
     render() {
         return (
             <div>
-                <p>I Manage character</p>         
+                <p>I Manage Characters</p>         
             </div>
         )
     }
