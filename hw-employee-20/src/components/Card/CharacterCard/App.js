@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Dropdown from '../../DropDown/Dropdown.js'
-import employees from '../../../utils/db.json';
-import EmployeeCard from './EmployeeCard';
+import character from '../../../utils/db.json';
+import CharacterCard from './CharacterCard';
 import CardWrapper from '../CardWrapper/CardWrapper';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-// this function imports the HTML section from EmployeeCard, while this 
-function Employee() {
-    const [team, setTeam] = useState(employees);
+// this function imports the HTML section from CharacterCard, while this 
+function Character() {
+    const [team, setTeam] = useState(character);
     const [searchBar, setSearch] = useState('');
     const [nameSort, setNameSort] = useState("AZ");
 
@@ -34,7 +34,7 @@ function Employee() {
 
     useEffect(() => {
         if (!searchBar) {
-            return setTeam(employees);
+            return setTeam(character);
         }
         const results = team.filter(person =>
             person.name.includes(searchBar.toLowerCase())
@@ -46,57 +46,57 @@ function Employee() {
 
         switch (eventKey) {
             case "CEO":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("CEO")
                 ));
                 break;
             case "Manager":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("Manager")
                 ));
                 break;
             case "Designer":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("Designer")
                 ));
                 break;
             case "Developer":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("Developer")
                 ));
                 break;
             case "Debugging Specialist":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("Debugging Specialist")
                 ));
                 break;
             case "Savior of the Internet":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("Savior of the Internet")
                 ));
                 break;
             case "Dragon":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.title.includes("Dragon")
                 ));
                 break;
             case "Los Angeles":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.location.includes("Los Angeles")
                 ));
                 break;
             case "Tampa Bay":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.location.includes("Tampa Bay")
                 ));
                 break;
             case "Milwaukee":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.location.includes("Milwaukee")
                 ));
                 break;
             case "Green Bay":
-                setTeam([...employees].filter(person =>
+                setTeam([...character].filter(person =>
                     person.location.includes("Green Bay")
                 ));
                 break;
@@ -108,7 +108,7 @@ function Employee() {
     }
 
     const resetTeam = () => {
-        setTeam(employees);
+        setTeam(character);
         setSearch("");
     }
     return (
@@ -132,7 +132,7 @@ function Employee() {
             <div>
                 <CardWrapper >
                     {team.map(person => (
-                        <EmployeeCard
+                        <CharacterCard
                             key={person.id}
                             img={person.img}
                             name={person.name}
@@ -149,4 +149,4 @@ function Employee() {
     )
 }
 
-export default Employee;
+export default Character;

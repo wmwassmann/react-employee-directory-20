@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class EmployeeManager extends Component {
+class CharacterManager extends Component {
     render() {
         return (
             <div>
-                <p>I Manage Employees</p>         
+                <p>I Manage character</p>         
             </div>
         )
     }
 }
 
-export default EmployeeManager;
+export default CharacterManager;

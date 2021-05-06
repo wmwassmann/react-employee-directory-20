@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React, { Component } from 'react';
 import './css/style.css';
 // import NavBar from './components/NavBar/Navbar';
-import EmployeeManager from './pages/employeeManager';
+import CharacterManager from './pages/CharacterManager';
 import Main from './pages/mainPage';
 
 
@@ -22,7 +22,7 @@ render() {
       <div>
         
       <Route exact path ='/' component={Main} />
-      <Route exact path ='/employee-manager' component={EmployeeManager} />  
+      <Route exact path ='/character-manager' component={CharacterManager} />  
       </div>
       </div>
       </Switch>

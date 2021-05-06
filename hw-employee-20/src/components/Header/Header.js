@@ -7,7 +7,7 @@ function Header() {
         <header className="bg--image">
             <div className='header-title'>
                 <Container>
-                    <h1 className="text-center">Employee Directory</h1>
+                    <h1 className="text-center">CHARACTER DIRECTORY</h1>
                 </Container>
             </div>
         </header>

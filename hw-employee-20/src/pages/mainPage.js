@@ -4,7 +4,7 @@ import '../css/style.css';
 import Header from '../components/Header/Header';
 import Main from '../components/Main/Main';
 import CardWrapper from '../components/Card/CardWrapper/CardWrapper';
-import Employee from '../components/Card/EmployeeCard/App';
+import Character from '../components/Card/CharacterCard/App';
 
 
 
@@ -21,7 +21,7 @@ class MainPage extends Component {
             <>
               <Header />  
                 <Main>    
-                    <Employee />   
+                    <Character />   
                     <CardWrapper/>             
                 </Main>
             </>

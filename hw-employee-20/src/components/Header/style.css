@@ -1,9 +1,9 @@
 .text-center {
     padding: 50px;
-    border-style: solid;
-    border-radius: 3%;
+    border-style: solid;   
+    border-radius: 5px;
     margin-bottom: 20px;  
-    background:  #a87e3f;  
+    background:  #b8aa97;  
 }
 
 .bg--image {
