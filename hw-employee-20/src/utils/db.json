@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/dwarf-bard-1-img.png",
         "name": "Ross Bob",
         "title": "Manager",        
         "phone": "(987) 123-4567",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/dwarf-cleric-1-img.png",
         "name": "Ronny Proxin",
         "title": "Designer",
         "phone": "(555) 555–5555",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/dwarf-fighter-1-img.png",
         "name": "Regina George",
         "title": "Developer",       
         "phone": "(222) 555–4444",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/dwarf-mage-1-img.png",
         "name": "Mac Culk",
         "title": "Developer",        
         "phone": "(987) 223-4247",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/elf-cleric-1-img.png",
         "name": "Chris Roberts",
         "title": "CEO",
         "phone": "(999) 595–5234",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/elf-mage-1-img.png",
         "name": "Nicol Bolas",
         "title": "Dragon",       
         "phone": "(777) 777–7777",
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/elf-fighter-1-img.png",
         "name": "Tony Robbins",
         "title": "Developer",        
         "phone": "(987) 100-4567",
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/human-mage-1-img.png",
         "name": "Frett Bavre",
         "title": "Designer",
         "phone": "(521) 534–6855",
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/human-fighter-1-img.png",
         "name": "Godzilla",
         "title": "Debugging Specialist",       
         "phone": "(222) 555–3322",
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/tiefling-fighter-1-img.png",
         "name": "Milton Waddams",
         "title": "Designer",       
         "phone": "(222) 345–3322",
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/tiefling-mage-1-img.png",
         "name": "Max Von Sydow",
         "title": "Manager",       
         "phone": "(101) 123–3322",
@@ -100,7 +100,7 @@
     },
     {
         "id": 12,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/wmwassmann/react-employee-directory-20/main/hw-employee-20/src/img/tiefling-rogue-1-img.png",
         "name": "Bertram Gilfoyle",
         "title": "Savior of the Internet",       
         "phone": "(666) 666–6666",

@@ -5,7 +5,7 @@
 }
 
 .employee-card {
-    background: #27e6df;
+    background: #8a6840;
     border-radius: 6px;
     -webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.15);
        -moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.15);
@@ -39,3 +39,6 @@
     color: #000000;
   }
   
+  .images {
+    width: 200px;
+  }

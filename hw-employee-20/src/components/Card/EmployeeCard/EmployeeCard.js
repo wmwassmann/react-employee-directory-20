@@ -18,7 +18,7 @@ function EmployeeCard({ name, title, phone, email, img, location}) {
         <div className='employee-card card-container'>
             <div className='text-color card-text'>
             <LazyLoad height="41">
-                <img src={img} alt={name} />
+                <img className='images' src={img} alt={name} />
             </LazyLoad >
                 <h2>{name}</h2>
                 <h3>{title}</h3>
