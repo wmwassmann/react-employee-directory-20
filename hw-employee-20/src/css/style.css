@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;800&family=Lato&display=swap');
 
-.body {
+.body {  
   background: 
   linear-gradient(180deg, rgba(129, 100, 73, 0.884) 0%, #180608 100%), 
   url("../img/background.png"); 
   margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Darker Grotesque', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  

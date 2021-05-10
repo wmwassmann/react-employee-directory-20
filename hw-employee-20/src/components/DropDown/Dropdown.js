@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'
 function DropDown({ inputValue, handleInputChange, resetButton, sortButton, children, handleSelectDropdown }) {
     return (
         <Row>
-            <Col md={6}>
+            <Col md={6} className='input-value'>
                 <FilterSearch
                     inputValue={inputValue}
                     handleInputChange={handleInputChange} />
