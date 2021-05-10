@@ -5,6 +5,7 @@
 # Table of contents
 - [Goal](#personal-goal)
 - [Installation](#installation)
+- [Deployed Link](#deployed)
 - [Usage](#usage)
 - [License](#license)
 - [Tests](#tests)
@@ -30,6 +31,10 @@ To install:
 - Run the command "npm install" from the hw-Character-20 folder 
 - Run the command "npm start" from the hw-Character-20 folder 
 - This Character directory will be hosted locally in localhost:3000, or you can view it via (heroku)
+
+# Deployed Link
+
+Deployed Link to this Application: [Here]:(https://react-character-manager.herokuapp.com/)
 
 
 # Usage
