@@ -34,7 +34,7 @@ To install:
 
 # Deployed Link
 
-Deployed Link to this Application: [Here]:(https://react-character-manager.herokuapp.com/)
+Deployed Link to this Application: [Here](https://react-character-manager.herokuapp.com/)
 
 
 # Usage
